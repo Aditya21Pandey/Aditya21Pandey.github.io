@@ -1,0 +1,65 @@
+/* p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: red;
+  width: 500 px;
+  border: 1px solid black;
+}
+
+li {
+  background-color: greenyellow;
+  border: 1px solid blue;
+  margin-bottom: 50px;
+} */
+
+html {
+  /* px means "pixels". The base font size is now 150 pixels high */
+  font-size: 150x;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+h2 {
+  text-align: end;
+}
+
+p,
+li {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+html {
+  background-color: #485f74;
+}
+
+body {
+  width: 900px;
+  margin: 100px auto;
+  background-color: #9e6d29;
+  padding: 0px 20px 20px 20px;
+  border: 20px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #485f74;
+  text-shadow: 10px 5px 5px black;
+}
+
+img {
+  display: block;
+  margin: auto auto;
+  max-width: 100%;
+}
+
+.done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
